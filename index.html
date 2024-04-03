@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/590b3f9609.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+ <div id="header">
+  <div class="container">
+    <nav>
+      <h1 class="logo"><span>M</span>UKESH. </h1>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+      </ul >
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+    </nav>
+    <div class="header-text">
+      <p>Full Stack PYTHON Developer</p>
+      <h1>Hi, I'm <span>Mukesh M  </span> <br>From Kanyakumari</h1>
+    </div>
+  </div>
+ </div>
+<!---------about me-->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/aboutmg.jpg">
+      </div>
+      <div class="about-col-2">
+       <h1 class="sub-title">About Me</h1>
+       <p>I am a seasoned Python Full Stack Developer specializing in both front-end and back-end technologies. Proficient in Python and Django, I have a comprehensive understanding of building dynamic and scalable web applications. On the front-end, I leverage my expertise in HTML, CSS, and React.js to create intuitive and visually appealing user interfaces. In the back-end, I am adept at utilizing the Django framework to design robust server-side architecture, ensuring seamless functionality. My experience extends to database management with Sql and MySQL, allowing me to develop data-driven applications effectively. Collaborative by nature, I have successfully worked within cross-functional teams to deliver end-to-end solutions. With a commitment to best practices, I excel in testing methodologies, code reviews, and optimizing application performance. As a Python Django Full Stack Developer, I am passionate about creating innovative and efficient web experiences that meet and exceed user expectations</p>
+
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+       </div>
+         <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Mainstream Programming Languages</span><br>Python</li>
+            <li><span>Database Management</span><br>MySql ,SQLite</li>
+            <li><span>Front-end Development & libraries</span><br>HTML, CSS, Javascript, jQuery & Angular JS</li>
+            <li><span>Advanced Framework</span><br>Python_Django, CSS_Bootstrap</li>
+          </ul>
+         </div>
+
+         <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023 - Present</span><br>Junior Programmer at BTree Research Services, Nagercoil</li>
+            <li><span>2022 - 2023</span><br>Full Stack Python Developer Intern at Scope India, Trivandrum.</li>  
+          </ul>
+         </div>
+
+         <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2015 - 2018</span><br>BE From University College Of Engineering Konam, Nagercoil.</li>
+            <li><span>2013 - 2015</span><br>Diploma From SreeKrishna Polytechnic College Kalliancaud, Nagercoil. </li>
+            
+          </ul>
+         </div>
+      </div>
+    </div>
+  </div>
+ </div>
+   <!-- --------services-------- -->
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+
+          <h2>Web Design</h2>
+          <p>As a Python web developer, I specialize in designing and implementing dynamic and responsive web applications using frameworks such as Flask. Proficient in both front-end and back-end development, I excel in creating visually appealing user interfaces and ensuring seamless functionality. My expertise extends to collaborating with cross-functional teams to analyze project requirements, implement robust solutions, and optimize web performance. With a strong foundation in web design principles and a commitment to staying abreast of industry trends, I have successfully contributed to the development of engaging and scalable web solutions that enhance user experiences.</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+
+          <h2>AI Data Analysis</h2>
+          <p>I leverage advanced AI techniques for comprehensive data analysis, contributing to informed decision-making processes. I design and implement machine learning models to extract valuable insights from large datasets, optimizing data-driven strategies. Utilizing Python and relevant frameworks, I develop algorithms that enhance data interpretation and automate complex analytical tasks. Additionally, I collaborate with cross-functional teams to integrate AI solutions seamlessly into existing workflows, ensuring a streamlined and efficient approach to data-driven decision support. My work involves not only extracting patterns and trends but also contributing to the continuous improvement of AI models, showcasing my commitment to staying at the forefront of innovative data analysis methodologies.</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+
+          <h2>App Design</h2>
+          <p>I leverage my proficiency in Python to develop dynamic and user-centric web applications. Utilizing frameworks such as Flask, I design and implement interactive features, ensuring an engaging user experience. My responsibilities encompass crafting aesthetically pleasing and responsive interfaces, with a keen focus on usability and functionality. I have successfully contributed to the enhancement of application capabilities, utilizing Python's versatility to streamline processes and improve overall performance. Additionally, my work involves collaborating with cross-functional teams to gather requirements, implement design changes, and deploy updates effectively. My expertise in Python and web frameworks positions me as a valuable asset in delivering innovative and efficient app solutions.</p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+ <!-- ----Portfolio---- -->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to the talented people around the world.</p>
+          <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+        </div>
+
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>A music app is a digital gateway to the world of music, offering users a seamless and personalized experience.</p>
+          <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>A shopping app is a convenient and user-friendly platform that brings the retail experience to users' fingertips. With an intuitive interface, users can effortlessly browse through a diverse range of products, from clothing and electronics to household goods..</p>
+          <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+       <a href="#" class="btn">see more</a>
+  </div>
+ </div>
+ <!-- contact-->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-regular fa-envelope"></i>mukeshmurugadhas@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9952640041</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/mukesh-m-6033ab277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100093136175160&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/mukesh_t_murugadhas?igsh=b2t1c2tmdXZqbzR1"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://youtube.com/@voiceofmyidentity?si=BKPJ9dfkdWKgQ9yO"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="images/my-resume.pdf" download  class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet" >
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2"> submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+  </div>
+  <div class="copyright">
+    <p>@copyright made with <i class="fa-solid fa-heart"></i> by Mukesh</p>
+  </div>
+ </div>
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+
+    }
+    for(tablink of tabcontents){
+      tablink.classList.remove("active-tab");
+      
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px";
+  }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzekfGvqiMEpm5ONWulFf-uYr3CHXQh0Su-ql0Fq-Gn4mMeO2dMx-Wb6CJMHZrN3V2u/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
